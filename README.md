@@ -105,6 +105,22 @@ Explains why waiving the job offer and labor certification requirement provides 
 
 ---
 
+## System Architecture Overview
+
+The figure below presents the formal meta-architecture used in this research
+to enable spatio-temporal life cycle assessment of electrolytic hydrogen systems.
+
+The framework integrates:
+
+- Model-Based Systems Engineering (MBSE)
+- Hetero-functional Graph Theory (HFGT)
+- Process-based Life Cycle Assessment (LCA)
+- Time-varying electricity grid emissions modeling
+
+![HFGT Formal Meta-Architecture](figures/Framework_HFGT_Formal_Meta_Architecture.jpg)
+
+---
+
 ## Repository Structure
 
 ```
