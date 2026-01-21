@@ -253,6 +253,14 @@ Minor deviations arise from rounding effects and data resolution differences.
 
 ---
 
+### Figure 5 – Full-Year Hourly Carbon Intensity Variability (8760 Hours)
+
+![Figure 5 – Hourly Carbon Intensity](figures/results/Hourly_Grid_Carbon_Intensity_8760h.png)
+
+This figure presents the hourly life-cycle carbon intensity of electricity generation across an entire calendar year. The magnitude of intra-day and seasonal variability demonstrates the limitations of annual-average emissions factors and highlights the necessity of time-resolved accounting for clean hydrogen qualification under Section 45V of the Inflation Reduction Act.
+
+---
+
 ## Policy-Aligned Architecture
 
 The modeling framework is explicitly designed to support regulatory evaluation under:
