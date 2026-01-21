@@ -84,6 +84,73 @@ Explains why waiving the job offer and labor certification requirement benefits 
 
 
 ---
+---
+
+## National Interest Waiver Alignment – Dhanasar Prong 1
+
+This repository directly supports a nationally important endeavor within the United States focused on improving the accuracy, credibility, and policy alignment of hydrogen lifecycle emissions accounting.
+
+### National Importance Context
+
+Clean hydrogen is a strategic pillar of U.S. energy and climate policy, supported through:
+
+- The Inflation Reduction Act (IRA)
+- Section 45V Clean Hydrogen Production Tax Credit
+- U.S. Department of Energy Hydrogen Shot initiative
+- Federally funded Hydrogen Hub (H2Hub) programs
+
+More than $7 billion in federal funding has been allocated to accelerate clean hydrogen deployment nationwide.  
+Accurate lifecycle carbon intensity modeling is essential to ensure that these investments achieve intended climate outcomes.
+
+### Problem of National Significance
+
+Current industry practice commonly relies on:
+
+- annual-average grid emissions factors  
+- static electricity assumptions  
+- coarse temporal system boundaries  
+
+These approaches fail to capture real-world grid operations and can:
+
+- materially misrepresent hydrogen lifecycle emissions  
+- allow qualification of high-emissions hydrogen for federal incentives  
+- create emissions arbitrage across regions and time periods  
+- undermine public trust in federal decarbonization programs  
+
+Federal agencies including the U.S. Department of Energy, U.S. Treasury, NREL, and Argonne National Laboratory have identified time-resolved emissions accounting as a critical unresolved challenge.
+
+### Contribution of This Work
+
+This repository advances nationally important objectives by enabling:
+
+- **hourly-resolved hydrogen carbon intensity estimation**
+- **spatio-temporal emissions attribution**
+- **explicit modeling of grid dispatch variability**
+- **policy-aligned evaluation under Section 45V thresholds**
+- **avoidance of annual-average emissions bias**
+
+The framework integrates:
+
+- Model-Based Systems Engineering (MBSE)
+- Hetero-functional Graph Theory (HFGT)
+- Process-based Life Cycle Assessment (LCA)
+- Time-varying electricity emissions data
+
+This enables decision-relevant emissions analysis aligned with emerging federal guidance.
+
+### National Benefit
+
+The methods implemented in this repository support:
+
+- credible qualification of hydrogen projects under federal tax incentives  
+- responsible allocation of public funding  
+- prevention of lifecycle emissions misreporting  
+- improved regulatory enforcement and transparency  
+- accelerated deployment of genuinely low-carbon hydrogen systems  
+
+Accordingly, the work documented in this repository addresses a problem of substantial national importance to U.S. energy security, climate policy integrity, and federal infrastructure investment effectiveness.
+
+---
 
 ## Author
 
