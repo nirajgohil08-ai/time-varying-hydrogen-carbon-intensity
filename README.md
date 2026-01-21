@@ -45,24 +45,24 @@ This work provides a transparent and reproducible framework for **spatio-tempora
 
 This repository provides documentary evidence addressing all three criteria used by USCIS to evaluate National Interest Waiver petitions.
 
-### 🔹 Prong 1 – National Importance  
+###  Prong 1 – National Importance  
 Explains why accurate hydrogen emissions accounting is essential to U.S. energy policy and federal incentive programs.
 
-📄 [Prong 1 – National Importance](dhanasar/prong1_national_importance.md)
+[Prong 1 – National Importance](dhanasar/prong1_national_importance.md)
 
 ---
 
-### 🔹 Prong 2 – Well Positioned to Advance the Endeavor  
+###  Prong 2 – Well Positioned to Advance the Endeavor  
 Demonstrates the petitioner’s technical expertise, original research contributions, and capacity to continue advancing this work.
 
-📄 [Prong 2 – Well Positioned](dhanasar/prong2_well_positioned.md)
+[Prong 2 – Well Positioned](dhanasar/prong2_well_positioned.md)
 
 ---
 
-### 🔹 Prong 3 – Balance of Benefits  
+###  Prong 3 – Balance of Benefits  
 Explains why waiving the job offer and labor certification requirement provides greater benefit to the United States.
 
-📄 [Prong 3 – Balance of Benefits](dhanasar/prong3_balance_of_benefits.md)
+[Prong 3 – Balance of Benefits](dhanasar/prong3_balance_of_benefits.md)
 
 ---
 
@@ -71,14 +71,14 @@ Explains why waiving the job offer and labor certification requirement provides 
 ### 1. Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis  
 **Model-Based Systems Engineering & Hetero-functional Graph Theory**
 
-📄 [View PDF](papers/Enhancing%20Spatio-Temporal%20Resolution%20of%20Process-Based%20Life%20Cycle%20Analysis%20with%20Model-Based%20Systems%20Engineering%20%26%20Hetero-functional%20Graph%20Theory/paper.pdf)
+[View PDF](papers/Enhancing%20Spatio-Temporal%20Resolution%20of%20Process-Based%20Life%20Cycle%20Analysis%20with%20Model-Based%20Systems%20Engineering%20%26%20Hetero-functional%20Graph%20Theory/paper.pdf)
 
 ---
 
 ### 2. Spatio-Temporal Life Cycle Analysis of Electrolytic H₂ Production in Australia  
 **Time-Varying CO₂ Management Schemes**
 
-📄 [View PDF](papers/Spatio-Temporal%20Life%20Cycle%20Analysis%20of%20Electrolytic%20H2%20Production%20in%20Australia%20under%20Time-Varying%20CO2%20Management%20Schemes/paper.pdf)
+[View PDF](papers/Spatio-Temporal%20Life%20Cycle%20Analysis%20of%20Electrolytic%20H2%20Production%20in%20Australia%20under%20Time-Varying%20CO2%20Management%20Schemes/paper.pdf)
 
 ---
 
@@ -90,7 +90,7 @@ Explains why waiving the job offer and labor certification requirement provides 
 - Lifecycle emissions thresholds  
 - Prevention of emissions arbitrage  
 
-📄 [Section 45V Policy Alignment](policy/45V_alignment.md)
+[Section 45V Policy Alignment](policy/45V_alignment.md)
 
 ---
 
@@ -118,6 +118,13 @@ The framework integrates:
 - Time-varying electricity grid emissions modeling
 
 ![HFGT Formal Meta-Architecture](figures/Framework_HFGT_Formal_Meta_Architecture.jpg)
+
+## System Architecture Overview
+
+**Hydrogen Life Cycle System Architecture modeled using MBSE and HFGT**
+
+![H2 Lifecycle System Architecture](figures/H2_Lifecycle_System_Architecture.jpg)
+
 
 ---
 
