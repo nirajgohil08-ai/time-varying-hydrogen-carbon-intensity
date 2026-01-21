@@ -2,121 +2,126 @@
 
 ## Summary
 
-The petitioner is well positioned to advance the proposed endeavor of developing and disseminating time-resolved hydrogen lifecycle carbon intensity modeling frameworks.
+The petitioner is well positioned to advance the proposed endeavor of improving spatio-temporal hydrogen lifecycle emissions accounting due to a combination of advanced technical expertise, original research contributions, institutional collaborations, and demonstrated capacity to translate complex systems modeling into policy-relevant decision support tools.
 
-This conclusion is supported by the petitioner’s advanced technical training, original research contributions, peer-reviewed publications, demonstrated systems-level expertise, and the existence of a functioning, publicly documented computational framework capable of informing real-world hydrogen deployment and emissions accounting decisions.
-
----
-
-## Advanced Expertise and Specialized Knowledge
-
-The petitioner possesses specialized expertise at the intersection of:
-
-- hydrogen energy systems modeling  
-- process-based life cycle assessment (LCA)  
-- spatio-temporal emissions accounting  
-- model-based systems engineering (MBSE)  
-- hetero-functional graph theory (HFGT)  
-
-This combination of skills is uncommon and directly relevant to addressing the technical limitations of conventional hydrogen carbon intensity assessment approaches.
-
-The work goes beyond standard lifecycle accounting by explicitly modeling:
-
-- hourly electricity grid dispatch behavior  
-- regional generation mix variability  
-- marginal emissions dynamics  
-- operational electrolyzer scheduling effects  
-
-These capabilities require advanced analytical training and systems modeling proficiency not typically possessed by general energy analysts.
+The petitioner’s background directly aligns with the technical, analytical, and policy challenges currently facing clean hydrogen deployment in the United States.
 
 ---
 
-## Record of Original Research Contributions
+## Advanced Education and Technical Expertise
 
-The petitioner has authored and co-authored original research that introduces methodological advances in hydrogen emissions accounting, including:
+The petitioner holds graduate-level training in systems engineering and energy systems modeling, with specialized expertise in:
+
+- life cycle assessment (LCA)
+- spatio-temporal systems modeling
+- electricity grid emissions analysis
+- hydrogen production system modeling
+- model-based systems engineering (MBSE)
+- hetero-functional graph theory (HFGT)
+
+This interdisciplinary expertise enables analysis across traditionally disconnected domains, including power systems, lifecycle emissions, operations research, and energy policy.
+
+---
+
+## Original Research Contributions
+
+The petitioner has authored and co-authored original research advancing the methodological frontier of hydrogen emissions accounting, including:
 
 ### 1. Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis  
-*(Model-Based Systems Engineering & Hetero-functional Graph Theory)*
+(Model-Based Systems Engineering and Hetero-functional Graph Theory)
 
-This work demonstrates:
+This work introduces a novel systems-based framework for improving the spatial and temporal resolution of conventional process-based LCA, enabling:
 
-- integration of MBSE architecture with process-based LCA  
-- formal system boundary definition across spatial and temporal dimensions  
-- elimination of static annual-average emissions assumptions  
-- quantification of error introduced by coarse temporal resolution  
+- explicit representation of system states and transitions  
+- improved traceability of lifecycle emissions pathways  
+- integration of time-dependent operational behavior  
+- scalable modeling across multi-energy infrastructures  
 
-### 2. Spatio-Temporal Life Cycle Analysis of Electrolytic Hydrogen Production in Australia  
-*(Time-Varying CO₂ Management Schemes)*
-
-This research:
-
-- evaluates hydrogen carbon intensity across 8,760 hourly time steps  
-- demonstrates the sensitivity of hydrogen CI to operational dispatch  
-- reveals substantial divergence between annual-average and hourly-resolved emissions values  
-- provides direct relevance to policy qualification frameworks similar to U.S. Section 45V  
-
-Together, these papers establish a documented record of original contribution and technical leadership in an emerging and nationally relevant research domain.
+The research expands the analytical capability of traditional LCA approaches and provides a foundation for time-resolved emissions modeling.
 
 ---
 
-## Demonstrated Ability to Execute the Endeavor
+### 2. Spatio-Temporal Life Cycle Analysis of Electrolytic Hydrogen Production in Australia under Time-Varying CO₂ Management Schemes
 
-The petitioner has already demonstrated the ability to advance the proposed endeavor through:
+This work demonstrates, through large-scale hourly simulation:
 
-- development of a reproducible computational modeling framework  
-- generation of peer-review-quality analytical results  
-- transparent documentation of assumptions and system boundaries  
-- publication-ready figures, simulations, and datasets  
+- hydrogen carbon intensity varies significantly by time and location  
+- annual-average grid emissions factors can materially misrepresent true emissions  
+- operational dispatch strongly influences lifecycle outcomes  
+- policy qualification thresholds are sensitive to temporal resolution  
 
-The GitHub repository accompanying this petition contains:
-
-- executable modeling workflows  
-- clearly defined data inputs and outputs  
-- documented methodology linking research to policy relevance  
-- public access to research papers validating the approach  
-
-This demonstrates not merely theoretical capability, but practical execution.
+These findings directly inform emerging U.S. hydrogen policy frameworks, including Section 45V of the Inflation Reduction Act.
 
 ---
 
-## Institutional and Research Environment Experience
+## National Laboratory and International Research Collaboration
 
-The petitioner’s work has been informed by collaboration with and methodologies derived from:
+The petitioner has conducted research in collaboration with:
 
-- national research laboratories  
-- international research institutions  
-- established lifecycle modeling frameworks such as GREET-based approaches  
+- **CSIRO** — Australia’s National Science Agency  
+- **Argonne National Laboratory** — U.S. Department of Energy  
 
-This exposure ensures that the proposed endeavor aligns with real-world analytical standards rather than purely academic abstraction.
+Argonne National Laboratory is a primary developer of the GREET lifecycle model used by U.S. federal agencies.
 
----
+Collaboration with these institutions demonstrates:
 
-## Independence from Employer Sponsorship
-
-The proposed endeavor is not dependent on a single employer, laboratory, or commercial entity.
-
-The modeling framework:
-
-- can be applied across regions and electricity markets  
-- supports multiple hydrogen production configurations  
-- is adaptable to evolving regulatory guidance  
-- is suitable for industry, policy, and research use  
-
-This independence further supports the petitioner’s ability to continue advancing the endeavor without reliance on employer-specific infrastructure.
+- independent expert validation of the petitioner’s technical capability  
+- alignment with federally recognized research methodologies  
+- experience operating at national-lab research standards  
 
 ---
 
-## Ongoing and Future Advancement Plan
+## Relevance to United States Hydrogen Policy
 
-The petitioner is well positioned to advance the endeavor through:
+Federal agencies have explicitly identified time-resolved emissions accounting as a critical unresolved challenge.
 
-- extension of the framework to U.S. electricity markets  
-- incorporation of real-time grid emissions datasets  
-- evaluation of policy qualification thresholds and compliance risk  
-- continued publication and dissemination of results  
-- collaboration with industry, research institutions, and policymakers  
+Key policy drivers include:
 
-The repository serves as a foundational platform for continued development and deployment of time-resolved hydrogen emissions modeling.
+- Inflation Reduction Act Section 45V Clean Hydrogen Production Tax Credit  
+- U.S. Department of Energy Hydrogen Shot initiative  
+- DOE Hydrogen Hub (H2Hubs) program  
+- Treasury guidance on lifecycle emissions measurement  
+
+The petitioner’s work directly addresses:
+
+- hourly electricity sourcing requirements  
+- avoidance of annual-average emissions bias  
+- prevention of emissions arbitrage  
+- transparent lifecycle boundary definition  
+
+These issues are central to the credibility and effectiveness of federal hydrogen incentives.
+
+---
+
+## Demonstrated Ability to Advance the Endeavor
+
+The petitioner has demonstrated the ability to advance the proposed endeavor through:
+
+- peer-reviewed research publications  
+- reproducible modeling frameworks  
+- integration of grid emissions datasets with hydrogen system models  
+- development of decision-support tools applicable to real-world policy analysis  
+
+The modeling approaches documented in this repository are not conceptual abstractions, but operational frameworks capable of evaluating:
+
+- hourly hydrogen carbon intensity (8760 resolution)  
+- regional grid variability impacts  
+- policy threshold compliance  
+- emissions sensitivity across dispatch scenarios  
+
+---
+
+## Future Work and Ongoing Impact
+
+The petitioner intends to continue advancing this endeavor through:
+
+- extension of models to U.S. electricity markets  
+- integration with real-time grid emissions datasets  
+- policy evaluation under evolving Treasury guidance  
+- application to hydrogen hub project assessment  
+- open-source dissemination for regulatory transparency  
+
+The petitioner’s established research trajectory demonstrates both continuity and scalability of national impact.
 
 ---
 
@@ -124,14 +129,13 @@ The repository serves as a foundational platform for continued development and d
 
 Based on the petitioner’s:
 
-- specialized technical expertise  
-- original research contributions  
-- peer-reviewed publications  
-- demonstrated modeling capability  
-- publicly accessible computational framework  
-- clear plan for continued advancement  
+- advanced technical education  
+- original peer-reviewed research  
+- collaboration with national laboratories  
+- direct alignment with federal hydrogen policy needs  
+- demonstrated ability to produce decision-relevant modeling frameworks  
 
-the petitioner is exceptionally well positioned to advance the proposed endeavor of improving hydrogen lifecycle carbon intensity accounting under time-varying grid conditions.
+the petitioner is well positioned to advance the proposed endeavor of improving hydrogen lifecycle emissions accounting under time-varying grid conditions.
 
-This satisfies **Dhanasar Prong 2**.
+Accordingly, the petitioner satisfies **Dhanasar Prong 2**.
 
