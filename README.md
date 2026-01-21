@@ -105,40 +105,178 @@ Explains why waiving the job offer and labor certification requirement provides 
 
 ---
 
-## System Architecture Overview
+## Systems Architecture Overview
 
-The figure below presents the formal meta-architecture used in this research
-to enable spatio-temporal life cycle assessment of electrolytic hydrogen systems.
+This repository implements a **systems-based life-cycle modeling architecture** for quantifying the carbon intensity of electrolytic hydrogen production under time-varying electricity grid conditions.
 
 The framework integrates:
 
-- Model-Based Systems Engineering (MBSE)
-- Hetero-functional Graph Theory (HFGT)
-- Process-based Life Cycle Assessment (LCA)
-- Time-varying electricity grid emissions modeling
+- physical energy system representation  
+- operational electricity dispatch behavior  
+- life-cycle emissions accounting  
+- policy-aligned evaluation under Section 45V  
 
-![HFGT Formal Meta-Architecture](figures/Framework_HFGT_Formal_Meta_Architecture.jpg)
+into a single coherent analytical structure.
 
-## System Architecture Overview
+The architecture is derived from the modeling methodologies presented in the accompanying peer-reviewed publications and is implemented using **Model-Based Systems Engineering (MBSE)** and **Hetero-functional Graph Theory (HFGT)**.
 
-**Hydrogen Life Cycle System Architecture modeled using MBSE and HFGT**
+---
 
-![H2 Lifecycle System Architecture](figures/H2_Lifecycle_System_Architecture.jpg)
+## High-Level System Representation
 
-### Formal Systems Representation
+The hydrogen production system is modeled as an interconnected **engineering system of systems** consisting of:
 
-The hydrogen production system is formally represented using Hetero-functional Graph Theory (HFGT).
+- electricity generation assets  
+- transmission and conversion infrastructure  
+- energy storage components  
+- electrolyzer systems  
+- material and energy flows  
 
-The incidence matrix defines:
+The full hydrogen life-cycle boundary includes:
 
-- process–operand relationships  
-- resource–process coupling  
-- transformation and transportation constraints  
-- complete system conservation structure  
+- upstream electricity generation  
+- grid transmission and transformation  
+- electrolyzer operation  
+- hydrogen and oxygen production  
+- associated energy losses and emissions  
 
-This formulation enables mathematically rigorous life-cycle emissions computation under time-varying grid conditions.
+This ensures emissions are attributed based on **actual operational pathways**, not static averages.
+
+---
+
+## Figure 1. HFGT Formal Meta-Architecture
+
+![HFGT Meta Architecture](figures/Framework_HFGT_Formal_Meta_Architecture.jpg)
+
+The formal meta-architecture defines the universal system elements used throughout the model:
+
+- **Operands (L)**  
+  Represent matter, energy, and information flows such as electricity, hydrogen, water, and emissions.
+
+- **Resources (R)**  
+  Represent physical assets capable of performing transformations or transport, including generators, transmission lines, substations, storage systems, and electrolyzers.
+
+- **Buffers (B)**  
+  Represent spatial or temporal holding locations such as grid nodes, storage units, and system boundaries.
+
+- **Processes / Transitions (E)**  
+  Represent energy conversion and transport operations such as generation, transformation, transmission, and electrolysis.
+
+This formal structure enables scalable system representation while preserving physical and operational consistency.
+
+---
+
+## Figure 2. Hydrogen Life-Cycle System Architecture
+
+![Hydrogen Lifecycle Architecture](figures/H2_Lifecycle_System_Architecture.jpg)
+
+The hydrogen life-cycle architecture explicitly models:
+
+- multiple electricity generation technologies  
+  - coal  
+  - natural gas  
+  - oil  
+  - biomass  
+  - solar  
+  - wind  
+  - hydro  
+  - geothermal  
+
+- grid infrastructure components  
+  - transmission lines  
+  - substations  
+  - storage systems  
+
+- downstream hydrogen production via PEM electrolysis  
+
+Energy flows are tracked continuously across the grid until consumption by the electrolyzer, allowing emissions attribution based on **marginal grid behavior at each hour**.
+
+This structure enables:
+
+- time-matched electricity sourcing  
+- spatial differentiation across grid regions  
+- accurate propagation of emissions through the energy system  
+
+---
+
+## Mathematical Representation via Incidence Matrices
+
+## Figure 3. HFGT Incidence Matrix Representation
 
 ![HFGT Incidence Matrix](figures/HFGT_Incidence_Matrix.png)
+
+The system architecture is mathematically represented using **incidence matrices**, which encode the relationships between:
+
+- operands  
+- processes  
+- buffers  
+- resources  
+
+This formulation enables:
+
+- linear-algebra-based life-cycle accounting  
+- explicit conservation of energy and mass  
+- transparent emissions propagation  
+- reproducible computational implementation  
+
+The matrix structure allows the hydrogen life-cycle model to scale from conceptual system diagrams to quantitative simulation without structural modification.
+
+---
+
+## Time-Varying Simulation Framework
+
+The architecture supports **hourly time-step simulation (8760 hours per year)**, where each timestep includes:
+
+- grid generation mix  
+- marginal emissions behavior  
+- electricity routing through infrastructure  
+- electrolyzer operating state  
+- resulting hydrogen production and emissions  
+
+This approach eliminates the distortions introduced by annual-average emissions factors and captures real operational dynamics of power systems.
+
+---
+
+## Figure 4. Hourly Carbon Intensity Validation
+
+![Hourly Validation](figures/Hourly_Carbon_Intensity_Validation_vs_Electricity_Maps.png)
+
+Figure 4 compares hourly carbon intensity values computed using the proposed HFGT-based life-cycle framework against independently reported Electricity Maps data.
+
+The close agreement between the two time series demonstrates:
+
+- correctness of the system architecture  
+- validity of emissions propagation logic  
+- robustness of the time-resolved modeling approach  
+
+Minor deviations arise from rounding effects and data resolution differences.
+
+---
+
+## Policy-Aligned Architecture
+
+The modeling framework is explicitly designed to support regulatory evaluation under:
+
+- **U.S. Inflation Reduction Act – Section 45V**
+- time-matching requirements  
+- lifecycle emissions thresholds  
+- avoidance of emissions arbitrage  
+
+By representing hydrogen production as a dynamic system rather than a static average, the architecture enables credible qualification analysis aligned with emerging federal guidance.
+
+---
+
+## Summary
+
+The systems architecture presented in this repository:
+
+- integrates engineering system structure with life-cycle assessment  
+- enables spatio-temporal emissions accounting  
+- supports hourly operational modeling  
+- provides mathematically transparent computation  
+- aligns directly with U.S. clean hydrogen policy requirements  
+
+This unified architecture forms the foundation for accurate, reproducible, and policy-relevant hydrogen carbon intensity analysis.
 
 ---
 
