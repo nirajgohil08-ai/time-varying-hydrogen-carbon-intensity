@@ -83,25 +83,29 @@ Explains why waiving the job offer and labor certification requirement benefits 
 ## Repository Structure
 
 time-varying-hydrogen-carbon-intensity/
-
 ├── README.md
-│   Overview of the research framework and NIW alignment
+│   └── Overview of the research framework and NIW alignment
+│
 ├── papers/
 │   ├── Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis/
 │   │   └── paper.pdf
 │   │
-│   └── Spatio-Temporal Life Cycle Analysis of Electrolytic H2 Production in Australia/
+│   └── Spatio-Temporal Life Cycle Analysis of Electrolytic H₂ Production in Australia/
 │       └── paper.pdf
+│
 ├── dhanasar/
 │   ├── prong1_national_importance.md
 │   ├── prong2_well_positioned.md
 │   └── prong3_balance_of_benefits.md
+│
 ├── policy/
 │   └── 45V_alignment.md
-└── modeling/
-    ├── data/
-    ├── scripts/
-    └── notebooks/
+│
+├── modeling/
+│   ├── data/
+│   ├── scripts/
+│   └── notebooks/
+
 
 ---
 
