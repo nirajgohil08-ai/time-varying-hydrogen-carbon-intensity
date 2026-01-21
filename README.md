@@ -1,39 +1,82 @@
-# Time-Varying Hydrogen Carbon Intensity Model
+# Time-Varying Hydrogen Carbon Intensity Modeling Framework
 
-This repository contains a research-grade decision-support framework for
-estimating the carbon intensity of electrolytic hydrogen production using
-time-resolved electricity grid emissions data.
+A research-grade systems modeling framework for quantifying **hourly life-cycle carbon intensity of electrolytic hydrogen** under time-varying electricity grid conditions.
 
-The work resolves key limitations of conventional annual-average hydrogen
-life cycle assessments by enabling spatio-temporal modeling at operational
-time scales.
+This work supports policy-aligned emissions accounting for clean hydrogen deployment, including qualification analysis under **U.S. Inflation Reduction Act Section 45V**.
 
 ---
 
-## Research Papers
+## Purpose of This Repository
 
-### 1. Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis with Model-Based Systems Engineering and Hetero-functional Graph Theory
+This repository documents original research and modeling tools developed to address a nationally important challenge:
 
-Methods:
-- Model-Based Systems Engineering (MBSE)
-- Hetero-functional Graph Theory (HFGT)
-- Process-based Life Cycle Assessment
+**accurate measurement of hydrogen carbon intensity under real-world grid operations.**
 
-PDF:
-papers/Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis with Model-Based Systems Engineering & Hetero-functional Graph Theory/paper.pdf
+Traditional annual-average emissions methods fail to represent true operational emissions behavior, creating risk for federal incentive misallocation and reduced environmental integrity.
+
+This work provides a transparent, reproducible framework for **spatio-temporal hydrogen life-cycle assessment**.
 
 ---
 
-### 2. Spatio-Temporal Life Cycle Analysis of Electrolytic H2 Production in Australia under Time-Varying CO2 Management Schemes
+## EB2 National Interest Waiver Alignment (Matter of Dhanasar)
 
-Geography:
-- Australia (NEM and WEM)
+This repository provides supporting evidence addressing all three prongs used by USCIS to evaluate National Interest Waiver petitions.
 
-Temporal Resolution:
-- Hourly (8760 time steps)
+### 🔹 Prong 1 – National Importance
+Explains why accurate hydrogen emissions accounting is critical to U.S. energy policy and federal incentive programs.
 
-PDF:
-papers/Spatio-Temporal Life Cycle Analysis of Electrolytic H2 Production in Australia under Time-Varying CO2 Management Schemes/paper.pdf
+📄 [`dhanasar/prong1_national_importance.md`](dhanasar/prong1_national_importance.md)
+
+---
+
+### 🔹 Prong 2 – Well Positioned to Advance the Endeavor
+Demonstrates the petitioner’s expertise, original contributions, and ability to continue advancing this work.
+
+📄 [`dhanasar/prong2_well_positioned.md`](dhanasar/prong2_well_positioned.md)
+
+---
+
+### 🔹 Prong 3 – Balance of Benefits
+Explains why waiving the job offer and labor certification requirement benefits the United States.
+
+📄 [`dhanasar/prong3_balance_of_benefits.md`](dhanasar/prong3_balance_of_benefits.md)
+
+---
+
+## Research Publications (PDF)
+
+### 1. Enhancing Spatio-Temporal Resolution of Process-Based Life Cycle Analysis  
+**Model-Based Systems Engineering & Hetero-functional Graph Theory**
+
+📄 [View PDF](papers/Enhancing%20Spatio-Temporal%20Resolution%20of%20Process-Based%20Life%20Cycle%20Analysis%20with%20Model-Based%20Systems%20Engineering%20%26%20Hetero-functional%20Graph%20Theory/paper.pdf)
+
+---
+
+### 2. Spatio-Temporal Life Cycle Analysis of Electrolytic H₂ Production in Australia  
+**Time-Varying CO₂ Management Schemes**
+
+📄 [View PDF](papers/Spatio-Temporal%20Life%20Cycle%20Analysis%20of%20Electrolytic%20H2%20Production%20in%20Australia%20under%20Time-Varying%20CO2%20Management%20Schemes/paper.pdf)
+
+---
+
+## Policy Alignment
+
+- **U.S. Inflation Reduction Act – Section 45V**
+  - Time-matched electricity sourcing
+  - Lifecycle emissions thresholds
+  - Prevention of emissions arbitrage
+
+📄 [`policy/45V_alignment.md`](policy/45V_alignment.md)
+
+---
+
+## Key Technical Contributions
+
+- Hourly hydrogen carbon intensity modeling (8760-hour resolution)
+- Integration of electricity grid emissions with electrolyzer operation
+- Elimination of annual-average emissions bias
+- Spatio-temporal system boundary representation
+- Policy-relevant lifecycle accounting methodology
 
 ---
 
@@ -42,39 +85,21 @@ papers/Spatio-Temporal Life Cycle Analysis of Electrolytic H2 Production in Aust
 
 ---
 
-## Key Contributions
-
-- Introduces time-varying hydrogen carbon intensity modeling
-- Eliminates annual-average grid emissions bias
-- Captures operational dispatch effects on hydrogen CI
-- Enables policy-aligned emissions accounting
-- Supports qualification analysis under U.S. 45V and similar regimes
-- Integrates MBSE and HFGT into process-based LCA
-
----
-
-## Keywords
-
-Hydrogen  
-Life Cycle Assessment  
-Spatio-Temporal Modeling  
-Model-Based Systems Engineering  
-Hetero-functional Graph Theory  
-Grid Carbon Intensity  
-Electrolysis  
-Decarbonization  
-
----
-
 ## Author
 
-**Niraj Gohil**  
-Systems Engineering · Hydrogen Systems · Energy Analytics  
+**Niraj Gohil**
 
-LinkedIn: https://www.linkedin.com/in/nirajg16/
+Research Scientist and Systems Engineer  
+Hydrogen Systems • Energy Policy Modeling • Grid Carbon Analytics
 
----
+Former Research Scientist at Stevens Institute of Technology  
+Collaborated with:
+- CSIRO – Australia’s National Science Agency
+- Argonne National Laboratory – U.S. Department of Energy
 
-This repository accompanies ongoing research in hydrogen systems modeling
-and is intended for academic, policy, and industrial use.
+Research focus:
+- Spatio-temporal life cycle assessment (LCA)
+- Time-varying hydrogen carbon intensity modeling
+- Grid-dispatch-aware emissions accounting
+- Policy-aligned analysis for U.S. Section 45V hydrogen tax credits
 
