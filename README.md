@@ -125,6 +125,20 @@ The framework integrates:
 
 ![H2 Lifecycle System Architecture](figures/H2_Lifecycle_System_Architecture.jpg)
 
+### Formal Systems Representation
+
+The hydrogen production system is formally represented using Hetero-functional Graph Theory (HFGT).
+
+The incidence matrix defines:
+
+- process–operand relationships  
+- resource–process coupling  
+- transformation and transportation constraints  
+- complete system conservation structure  
+
+This formulation enables mathematically rigorous life-cycle emissions computation under time-varying grid conditions.
+
+![HFGT Incidence Matrix](figures/HFGT_Incidence_Matrix.png)
 
 ---
 
